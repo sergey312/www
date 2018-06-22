@@ -1,0 +1,17 @@
+body{margin:0; padding:1em;}
+body, td, th, form, input, select, textarea, button{font:normal normal 11px/120% Verdana, Arial, Tahoma, Sans-Serif;}
+p{padding:0; margin:1em 0 0 0;}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, Tahoma, Verdana, Sans-Serif; line-height:110%; padding:0; margin: 1.5em 0 12px 0; color:#333399;}
+h1{font-size:220%; font-weight:normal; margin-top:0;}
+h2{font-size:180%; font-weight:normal;}
+h3{font-size:150%; font-weight:normal;}
+h4{font-size:130%; font-weight:bold;}
+h5{font-size:110%; font-weight:bold;}
+h6{font-size:100%; font-weight:bold; margin-bottom:0;}
+a:link, a:visited, a:active, a:hover{color:#006699;text-decoration:underline;}
+a:hover{color:#CC0000;text-decoration:none;}
+ul, ol {padding:0; margin:0 0 0 2em;}
+dl {padding:0; margin:0 0 0 1em;}
+li, dd, dt {padding:0; margin:0.5em;}
+hr{padding:0;margin:0;border:none;color:#999;background:#999;height:1px;}
+img{border:0;}

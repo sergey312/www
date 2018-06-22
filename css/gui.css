@@ -1,0 +1,59 @@
+html{padding:0;margin:0;}
+body{padding:0;margin:0;overflow:auto;background:#e6e6e6;}
+
+#header_top {height:16px; padding:4px; border-top:1px solid #999; border-bottom:1px solid #999; background:#ddd; text-align:center; font:normal bold 1px/100% Arial, Verdana, Tahoma, Sans-Serif; letter-spacing:20px;}
+#clipart {background:#ccc url(/img/gui/qwe.webp) 100% 100% no-repeat;}
+#logo {display:block; height:120px; width:440px; background: url() 100% 100% no-repeat;}
+/*#logo_pautina {width:460px; background: url(/img/gui/logo-pautina4.jpg) 0 0 no-repeat;}
+#logo_nau {width:460px; background: url(/img/gui/logo-nau.gif) 100% 0 no-repeat;}*/
+#header_bottom {height:12px; padding:4px; background:#ddd; border-top:1px solid #999; border-bottom:1px solid #999; text-align:center; font:normal normal 1px/100% Verdana, Arial, Tahoma, Sans-Serif; letter-spacing:2px;}
+
+#body{width:918px; margin:auto; border:1px solid #999; border-top-width:0;}
+#td_menu {background:#ccc; border-right:1px solid #999; vertical-align:top;}
+#td_content {background:#fff; vertical-align:top;}
+#menu {width:208px; overflow:auto;}
+#content {width:680px; padding:12px; overflow:auto;}
+
+#menu .block_title {width:190px; padding:3px 0 5px 18px; margin-top:12px; overflow:hidden; background:#0066cc url(/img/gui/block_title.gif) 0 0 no-repeat; color:white;font-weight:bold;}
+#menu .block_title a {color:#fff; text-decoration:none;}
+#menu .block_title a:hover {text-decoration:underline;}
+
+/* Ð”ÐµÑ€ÐµÐ²Ð¾ ÐœÐµÐ½ÑŽ */
+a#home_link {display:block; height:20px; margin-left:8px; font-weight:bold; background: url(/img/gui/mainmenu_page.gif) center left no-repeat; padding:12px 0 8px 24px; color:#006699; text-decoration:none;}
+a#home_link:hover {display:block; text-decoration:underline;}
+
+#tree_menu {margin-bottom:2em;}
+#tree_menu ol {list-style:none; padding:0; margin:0 0 0 16px;}
+#tree_menu li {padding:10px 0 1px 0; margin:0; display:none;}
+#tree_menu li a.parent {display:block; width:16px; height:16px; background: transparent url(/img/gui/mainmenu_closed.gif) 50% 50% no-repeat;}
+#tree_menu li a.parent_opened {display:block; width:16px; height:16px; background: transparent url(/img/gui/mainmenu_opened.gif) 50% 50% no-repeat;}
+#tree_menu li a.page {display:block; width:16px; height:16px; background: transparent url(/img/gui/mainmenu_page.gif) 50% 50% no-repeat;}
+#tree_menu li a.title {display:block; margin:-16px 0 2px 24px; color:#006699; text-decoration:none;}
+#tree_menu li a.title:hover {display:block; text-decoration:underline;}
+#tree_menu li a.title {font-weight:bold;}
+#tree_menu li ol li a.title {font-weight:normal;}
+#tree_menu ol#ol_0 {margin:0 8px; border-bottom:1px solid #EEEEEE; border-top:1px solid #999999;}
+#tree_menu li.parent_0 {display:block; padding:10px 0; border-bottom:1px solid #999999; border-top:1px solid #EEEEEE;}
+
+/* Ð‘Ð°Ð½Ð½ÐµÑ€Ñ‹ */
+.banner {text-align:center;}
+.banner a img {border:2px solid #fff; opacity: 0.5;}
+.banner a:hover img {border:2px solid #fff; opacity: 1;}
+
+/* ÐÐ°Ð²Ð¸Ð³Ð°Ñ‚Ð¾Ñ€ */
+#navigator {font-size:10px; line-height:100%; padding-bottom:12px; margin-bottom:1em; border-bottom:1px dotted #CCCCCC;}
+#navigator img {vertical-align:top;}
+
+/* Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð¾ÑˆÐ¸Ð±Ð¾Ðº */
+div.errors_list {color:red; font-weight:bold; margin: 2em 0 2em 0;}
+
+/* Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ OK */
+div.ok_message {color:white; background:green; padding:1em; margin: 2em 0 2em 0;}
+
+#footer{width:920px; margin:auto; padding:10px; text-align:center; font-size:10px; color:#666;}
+#footer a, #footer a:link, #footer a:active, #footer a:visited{color:#666; text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
+
+/* Ð¤Ð¾Ñ€Ð¼Ð° Ð´Ð»Ñ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð¾Ð² */
+form#stat_form {background:white url(/img/gui/loading.gif) center center no-repeat;}
+table#stat_form_table {background:#CCCCCC;}

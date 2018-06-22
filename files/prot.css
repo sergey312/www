@@ -1,0 +1,83 @@
+ 
+.trinity-box{
+
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 200px;
+
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.trinity-bl1 {
+    margin-bottom: 15px;
+    display: block;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+}
+
+.trinity-price{
+    font-size: 18pt;
+    padding-top: 30px;
+
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.trinity-green {
+    margin-top: 30px;
+    height: 40px;
+    background: #6cb121;
+    color: white;
+    font-size: 13pt;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.trinity-list {
+    padding: 10px;
+    font-size: 13pt;
+}
+
+.trinity-bl1 a {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background: #6cb121;
+    margin: 5px auto;
+    text-transform: uppercase;
+    display: block;
+    width: 80%;
+}
+
+.trinity-wrapper {
+float: right;
+width: 100%;
+}
+
+.btn-trinity {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 40%;
+}
