@@ -14,6 +14,9 @@
 	<script type="text/javascript" src="http://nun.com/js/statform.js"></script>
 	<script type="text/javascript" src="http://nun.com/js/md5.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<?php
+	require 'dp.php';
+	?>
 
 </head>
 <body>
@@ -38,26 +41,25 @@
 
 	<table cellpadding="0" cellspacing="0" id="body">
 		<tbody><tr>
-			<td id="td_menu"><div id="menu">
+				<td id="td_menu"><div id="menu">
 				<div class="block_title"><a href="/">nun.com</a></div>
-				<a id="home_link" href="index.html">Головна сторінка</a> 
+				<a id="home_link" href="index.php">Головна сторінка</a> 
 				<div id="tree_menu">
 					<ol id="ol_0">
 						<li class="parent_0" id="tree_menu_page_4">
-							<a class="page" id="tree_menu_icon_4" href="http://nun.com/personal_account/indexlk.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_4" href="http://nun.com/personal_account/indexlk.html" onclick="this.blur()">Особистий кабінет</a></li>
+							<a class="page" id="tree_menu_icon_4" href="http://nun.com/indexlk.php" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_4" href="http://nun.com/indexlk.php" onclick="this.blur()">Особистий кабінет</a></li>
 						<li class="parent_0" id="tree_menu_page_4">
-							<a class="page" id="tree_menu_icon_4" href="http://nun.com/regestration/indexreg.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_4" href="http://nun.com/regestration/indexreg.html" onclick="this.blur()">Реєстація</a></li>
+							<a class="page" id="tree_menu_icon_4" href="http://nun.com/indexreg.php" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_4" href="http://nun.com/indexreg.php" onclick="this.blur()">Реєстація</a></li>
 						<li class="parent_0" id="tree_menu_page_41">
-							<a class="page" id="tree_menu_icon_41" href="http://nun.com/internet_price/indexprice.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_41" href="http://nun.com/internet_price/indexprice.html" onclick="this.blur()">Інтернет тарифи</a></li>
+							<a class="page" id="tree_menu_icon_41" href="http://nun.com/indexprice.html" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_41" href="http://nun.com/indexprice.html" onclick="this.blur()">Інтернет тарифи</a></li>
 						<li class="parent_0" id="tree_menu_page_39">
-							<a class="page" id="tree_menu_icon_39" href="http://nun.com/feedback/indexfeedback.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_39" href="http://nun.com/feedback/indexfeedback.html" onclick="this.blur()">Зворотній зв&#039;язок</a></li>
+							<a class="page" id="tree_menu_icon_39" href="http://nun.com/indexfeedback.php" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_39" href="http://nun.com/indexfeedback.php" onclick="this.blur()">Зворотній зв&#039;язок</a>
 					</ol>
 				</div>
-								<div id="hidden_div" style="display:none;"></div>
 
 
 							</div></td>

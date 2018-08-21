@@ -1,7 +1,17 @@
-﻿<html xmlns="https://www.w3.org/1999/xhtml"><head>
+﻿<?php
+	if(isset($_POST['uu']) and isset($_POST['pp']))
+	{
+		
+			
+	
+
+	}
+	require 'dp.php';
+	?>
+<html xmlns="https://www.w3.org/1999/xhtml"><head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>НАН</title>
-	<base href="http://nun.com">
+
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="stylesheet" type="text/css" media="all" href="http://nun.com/css/style.css">
@@ -14,19 +24,8 @@
 	<script type="text/javascript" src="http://nun.com/js/uana_treemenu.js"></script>
 	<script type="text/javascript" src="http://nun.com/js/statform.js"></script>
 	<script type="text/javascript" src="http://nun.com/js/md5.js"></script>
-
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-51179725-1', 'lsn.net.ua');
-		ga('send', 'pageview');
-
-	</script>
-
 	<script src="https://www.google.com/recaptcha/api.js"></script>
+
 
 </head>
 <body>
@@ -51,37 +50,36 @@
 
 <table cellpadding="0" cellspacing="0" id="body">
 	<tbody><tr>
-		<td id="td_menu"><div id="menu">
-			<div class="block_title"><a href="/">nun.com</a></div>
-			<a id="home_link" href="http://nun.com">Головна сторінка</a> 
-			<div id="tree_menu">
+	<td id="td_menu"><div id="menu">
+				<div class="block_title"><a href="/">nun.com</a></div>
+				<a id="home_link" href="index.php">Головна сторінка</a> 
+				<div id="tree_menu">
 					<ol id="ol_0">
 						<li class="parent_0" id="tree_menu_page_4">
-							<a class="page" id="tree_menu_icon_4" href="http://nun.com/personal_account/indexlk.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_4" href="http://nun.com/personal_account/indexlk.html" onclick="this.blur()">Особистий кабінет</a></li>
+							<a class="page" id="tree_menu_icon_4" href="http://nun.com/indexlk.php" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_4" href="http://nun.com/indexlk.php" onclick="this.blur()">Особистий кабінет</a></li>
 						<li class="parent_0" id="tree_menu_page_4">
-							<a class="page" id="tree_menu_icon_4" href="http://nun.com/regestration/indexreg.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_4" href="http://nun.com/regestration/indexreg.html" onclick="this.blur()">Реєстація</a></li>
+							<a class="page" id="tree_menu_icon_4" href="http://nun.com/indexreg.php" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_4" href="http://nun.com/indexreg.php" onclick="this.blur()">Реєстація</a></li>
 						<li class="parent_0" id="tree_menu_page_41">
-							<a class="page" id="tree_menu_icon_41" href="http://nun.com/internet_price/indexprice.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_41" href="http://nun.com/internet_price/indexprice.html" onclick="this.blur()">Інтернет тарифи</a></li>
+							<a class="page" id="tree_menu_icon_41" href="http://nun.com/indexprice.html" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_41" href="http://nun.com/indexprice.html" onclick="this.blur()">Інтернет тарифи</a></li>
 						<li class="parent_0" id="tree_menu_page_39">
-							<a class="page" id="tree_menu_icon_39" href="http://nun.com/feedback/indexfeedback.html" onclick="this.blur()"></a>
-							<a class="title" id="tree_menu_title_39" href="http://nun.com/feedback/indexfeedback.html" onclick="this.blur()">Зворотній зв&#039;язок</a></li>
+							<a class="page" id="tree_menu_icon_39" href="http://nun.com/indexfeedback.php" onclick="this.blur()"></a>
+							<a class="title" id="tree_menu_title_39" href="http://nun.com/indexfeedback.php" onclick="this.blur()">Зворотній зв&#039;язок</a></li>
 					</ol>
 				</div>
-							<div id="hidden_div" style="display:none;"></div>
+								<div id="hidden_div" style="display:none;"></div>
 
 
-						</div></td>
+							</div></td>
 						<td id="td_content">
-							<form id="stat_form" method="get" action="" onsubmit="StatForm.Go(this); return false;">
+							<form id="/indexlk.php" method="POST" action="indexlk.php">
 								<fieldset style="border:2px solid #ccc"><legend><b>Для абонентів</b></legend>
 									<table cellpadding="2" cellspacing="0" width="100%" id="stat_form_table">
 										<tbody><tr><td align="right">Логін:</td><td><input type="text" name="uu" size="18"></td></tr>
 											<tr><td align="right">Пароль:</td><td><input type="password" name="pp" size="18"></td></tr>
 											<tr><td colspan="2" align="center">
-												<input type="hidden" name="ses" value="58108">
 												<input type="submit" value="  Вхoд  ">
 											</td></tr>
 										</tbody></table>
